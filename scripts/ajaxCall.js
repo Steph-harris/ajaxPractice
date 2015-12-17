@@ -30,7 +30,8 @@ $(document).ready(function(){
       
       // remove cite error
       i.find('.mw-ext-cite-error').remove();
-      
+
+      $('h2').html("What wikipedia has to say about (a/an) " + title);
       $('.col-md-9').html($(i).find('p'));
       }
     });
